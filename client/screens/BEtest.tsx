@@ -18,11 +18,6 @@ export default function BEtest() {
     )
 }
 
-
-
-
-
-
 function Cssbox() {
     return (
         <View style={{ flex: 1, backgroundColor: '#ddd', alignItems: 'center', borderWidth: 1, justifyContent: 'center' }}>
