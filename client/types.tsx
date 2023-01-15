@@ -74,3 +74,21 @@ export type NavBtnProps = {
      press : boolean,
      platform : string,
  }
+
+ export type ColorViewProps = {
+    title : string,
+    name : string,
+    code? : string,
+    text? : string
+ }
+
+ export type ColorProps = {
+    code? : string,
+    text? : string
+ }
+
+ export type IconProps = {
+    name : string,
+    size? : number,
+    color? : string
+ }

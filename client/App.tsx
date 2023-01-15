@@ -20,7 +20,6 @@
 
 
 /** components */
-import { StatusBar } from "react-native";
 
 /** navigation */
 import Navigation from "./navigations/Navigation";
@@ -28,9 +27,6 @@ import Navigation from "./navigations/Navigation";
 
 export default function App() {
   return (
-    <>
       <Navigation />
-      <StatusBar backgroundColor={'transparent'} translucent={true}/>
-    </>
   );
 }

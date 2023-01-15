@@ -12,6 +12,7 @@ import RootStack from "./RootStack";
 
 /** types */
 import { DrawerParamList, ScreenName } from "../types";
+import DrawerMenu from "../components/drawer/DrawerMenu";
 
 
 const Drawer = createDrawerNavigator<DrawerParamList>()
@@ -23,6 +24,10 @@ export default function RootDrawer() {
                 drawerPosition: 'right',
                 headerShown: false,
             }}
+            backBehavior='history'
+            drawerContent={() => (
+                <DrawerMenu />
+            )}
         >
             <Drawer.Screen
                 name={ScreenName.RootStack}
