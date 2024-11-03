@@ -46,7 +46,7 @@
 이 저장소를 클론하고, 백엔드와 프론트엔드 각각의 의존성을 설치합니다.
 
 ```bash
-   git clone https://github.com/yourusername/clean-reminder.git
+   git clone https://github.com/starbox7/clean-reminder.git
    cd clean-reminder
 
    # 백엔드 설치
